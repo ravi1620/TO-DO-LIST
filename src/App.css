@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.delButton{
+  background-color: rgb(131, 52, 52);
+margin: 5px;
+}
+
+.delButton:hover{
+  background-color:red;
+}
+
+.upButton{
+  background-color: rgb(48, 136, 136);
+margin: 5px;
+}
+
+.upButton:hover{
+  background-color: rgb(1, 253, 253);
+}
+
+.downButton{
+  background-color: rgb(77, 44, 59);
+margin: 5px;
+}
+
+.downButton:hover{
+  background-color: rgb(127, 2, 252);
+}
+
+.addButton{
+  background-color: rgb(83, 126, 40);
+  margin: 5px;
+}
+
+.addButton:hover{
+  background-color: rgb(130, 255, 5);
+}
+
+.oL{
+  padding-left:-100;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.span{
+  flex: 1;
+}
+
+.mainDiv{
+  width: 400px;
+}
